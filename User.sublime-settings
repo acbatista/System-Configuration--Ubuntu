@@ -1,5 +1,6 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
+// Configuração do meu sitema Ubundu 12.4 com Gnome 3 "Default/Preferences.sublime-settings", and
 // are overridden in turn by file type specific settings.
+// Editor de texto Sublime 2.0 
 {    
 
 "font_face": "Monaco",
