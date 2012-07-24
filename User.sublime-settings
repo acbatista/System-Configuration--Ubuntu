@@ -1,0 +1,42 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{    
+
+"font_face": "Monaco",
+"font_size": 12,
+
+
+"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+"tab_size": 4,
+"default_encoding": "UTF-8",
+"auto_complete_commit_on_tab": true, //Recomendações pra quem programa em Java deixa "true"!
+"margin": 4,
+"dictionary": "Packages/Language - Portugues/pt_BR.dic",
+
+
+"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	
+"ignored_packages": ["Vintage"]
+
+}
