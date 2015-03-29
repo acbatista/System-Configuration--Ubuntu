@@ -1,43 +1,32 @@
-// Configuração do meu sitema Ubundu 12.4 com Gnome 3 "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
-// Editor de texto Sublime 2.0 
-{    
-
-"font_face": "Monaco",
-"font_size": 12,
-
-
-"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-"tab_size": 4,
-"default_encoding": "UTF-8",
-"auto_complete_commit_on_tab": true, //Recomendações pra quem programa em Java deixa "true"!
-"margin": 4,
-"dictionary": "Packages/Language - Portugues/pt_BR.dic",
-
-
-"file_exclude_patterns":
+{
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Source code pro",
+	"font_size": 16,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
 	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db"
+		"Vintage",
+		"Elixir"
 	],
-	
-"ignored_packages": ["Vintage"]
-
+	"new_window_settings":
+	{
+		"show_minimap": false
+	},
+	"rulers":
+	[
+		80
+	],
+	"show_full_path": true,
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
